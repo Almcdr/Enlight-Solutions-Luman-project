@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
     
 }
 .bg-color-hom-border{
-    background-color: antiquewhite;
+    background-color: #F2FCFF;
 }
 
 
@@ -16,26 +20,37 @@ body{
     
     display: flex;
     width: 100%;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
 h1{
-    font-size: 60px;
+    font-size: 48px;
+    font-weight: 700;
 }
-p{
+p {  
     color: #505050;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.5px;
+    margin-top: 20px;
+    
 }
 #course-land-page{
-    padding: 100px 0;
+    padding: 150px 0;
 }
 .orange-color{
     color: orange;
 }
 .orange-color-icon{
+    
     color: #F68900;
-    padding-right: 8px;
+    padding-right: 15px;
+   
     font-size: 20px;
+    font-weight: 700;
+    
+
 }
 .orange{
     color: orange;
@@ -47,27 +62,203 @@ p{
 }
 
 .card-list {
+    background-color: #FFFFFF;
     display: flex;
-    box-shadow: 5px 3px 20px gray;
-    border-radius: 8px;
-    height: 10%;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    width: 558px;
+    height: 68px;
     padding: 8px;
+    margin-top: 20px;
+    
+    
 
 }
 .card-list p{
-    margin: 10px;
+    margin:auto;
+    border-right: 2px solid #D3D3D3;
+    padding: 4px 10px;
+} 
+.card-list p:last-child{
+    border-right: none;
+}
+.shear-icon{
+    position: absolute;
+    margin-left: 26%;
+    margin-top: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 32px;
+    height: 32px;
+    color: #FFA425;
+    font-size: 24px;
+    
+
 }
 
 .card-img-hover{
-    box-shadow: 10px 10px 40px gray;
+    background: #FBFBFB;
+    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    width: 558px;
+    margin-bottom: 25px;
     
+    
+    
+   
 }
 .card-img-hover img{
-    height: 60%;
+    width: 558px;
+    height: 251px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
-.stu-teac-profile{
-    display: flex;
-    margin-top:50px ;
-    align-items: center;
+.card-img-hove h5{
+    padding-left: 10px;
 }
 
+.stu-teac-profile{
+    display: flex;
+    margin-top:  24px;
+    align-items: center;
+}
+.stu-teac-profile img{
+    width: 92px;
+    height: 92px;
+}
+.stu-teac-name
+{
+    padding: 0 30px;
+    margin-top: 25px;
+    
+}
+.stu-teac-name h3{
+font-weight: 600;
+font-size: 24px;
+line-height: 29.26px;
+color: #242424;
+margin-bottom: 10px;
+    
+}
+.stu-teac-name p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.38px;
+    color: #505050;
+    margin-top: 18px;
+        
+    }
+.card-img-hover h5{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #242424;
+}
+.card-img-hover h4{
+    margin-left: 30px;
+    margin-top: 14px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.38px; 
+    color: #E42525;
+}
+.card-img-hover h2{
+    margin-left: 30px;
+    margin-top: 14px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #505050; 
+    
+}
+.Bookmark-Buton{
+    margin-left: 350px;
+    justify-content: flex-end;
+    align-self: flex-start;
+}
+.images-card-ser-big-sup{
+    display: flex;
+    
+}
+.images-card-ser-big-sup img{
+    width: 64px;
+    height: 64px;
+}
+.icon{
+    justify-content: space-between;
+}
+.icon-button-page{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin-right: 30px;
+}
+.bookmark-icon-color {
+    margin-right: 20px;
+    font-size: 24px;
+    color: #62D18D;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 52px;
+    height: 52px;
+    text-align: center;
+    margin-top: 4px;
+    
+}
+.button{
+    background: linear-gradient(180deg, #62D18D 0%, #1B904E 100%);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 174px;
+    height: 52px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.card-Cer-Big-sup{
+    display: flex;
+     gap: 48px;
+    
+}
+.beginner-deshbord{ 
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 14px;
+    width: 156px;
+    height: 120px;
+    text-align: center;
+}
+.support-deshbord{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 14px;
+    width: 157px;
+    height: 120px;
+    text-align: center;
+}
+
+.certificate-deshbord{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 14px;
+    width: 156px;
+    height: 120px;
+    text-align: center;
+}    
+.beginner-deshbord h4{
+    color:#505050 ;
+    font-weight: 500
+}
+.support-deshbord h4{
+    color:#505050 ;
+    font-weight: 500
+}
+.certificate-deshbord h4{
+    color:#505050 ;
+    font-weight: 500;
+    
+}
