@@ -37,7 +37,7 @@ p {
     
 }
 #course-land-page{
-    padding: 150px 0;
+    padding: 150px 0 100px;
 }
 .orange-color{
     color: orange;
@@ -261,4 +261,82 @@ margin-bottom: 10px;
     color:#505050 ;
     font-weight: 500;
     
+}
+.our-next-area-service{
+    display: flex;
+    color: #FFA425;
+    box-shadow: 0px 0px 2px #5d5a5a;
+    width: 364px;
+    height: 84px;
+    border-radius: 10px;
+    border: 1px solid #FFA425;
+    margin-top: 20px;
+    position: absolute;
+    z-index: 11;
+    background: #fff;
+    top: -68px;
+    left: 30%;
+}
+.our-next-area-service i{
+    font-size: 45px;
+    margin-right: 32px;
+    margin-top: 21px;
+    margin-left: 54px;
+}
+.our-next-area-service h3{
+    margin-top: 26px;
+    font-weight: 700;
+    font-size: 27px;
+}
+.card-our-naxt-batch-service{
+    margin-bottom:1000px ;
+    box-shadow:0px 0px 5px rgba(255, 164, 37, 0.4);
+    width: 946px;
+    height:158px ;
+    background-color: #FFA4251A
+    ;
+    border-radius: 10px;
+border: 1px solid #FFA42566;
+margin: auto;
+position: relative;
+margin-top: 150px;
+}
+.date-time-icon{
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+    margin-left: 55px;
+    padding-right: 0px;
+}
+.Lumen-lending{
+    margin-top: 60px;
+    margin-left: 16px;
+}
+.Lumen-lending-page{
+    margin-top: 20px;
+    margin-left: 17px;
+}
+.our-next-batch-area{
+    display: flex;
+}
+.card-our-naxt-batch-service{
+
+}
+.date-time-icon i{
+    font-size: 18px;
+    font-weight: 18px;
+    font-weight: 400;
+    margin-top: -7px;
+}
+
+.date-time-icon h5{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 0px;
+    font-weight: 600;
+}
+.Batch-area {
+    margin-left: 27px;
+    margin-top: -11px;
+    margin-bottom: -7px;
 }
