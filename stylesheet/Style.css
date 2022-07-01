@@ -337,3 +337,73 @@ margin-top: 150px;
     margin-top: -11px;
     margin-bottom: -7px;
 }
+.Notify-button-email{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-right: 10;
+    margin-top: 50px;
+}
+
+.notify-button-lumen-lending-page{
+    display: flex;
+    font-size: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    width: 170px;
+    height: 56px;
+    color: #FFA425;
+    border:2px solid #FFA425;
+    background-color: #FFFFFF;
+}
+.notify-button-lumen-lending-page h4{
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFA425 ;
+    margin-right: 14px;
+}
+
+.notify-button-lumen-lending-page i{
+    width: 20px; 
+    font-size: 30px;
+    
+    color: orange;
+    margin: auto;
+}
+.our-service-button{
+    background-color: orange;
+    border-radius: 10px;
+    width: 170px;
+    height: 56px;
+    border: none;
+}
+.our-service-button h6{
+    color: white;
+    font-size: 18px;
+    margin-top: 12px;
+    font-weight: 600;
+}
+.course-detels-menu{
+        display: flex;
+        margin: 10px;
+        box-shadow: rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 2px 10px 0px #0000001a;
+        width: 1140px;
+        height: 64px;
+        border-radius: 10px;
+        margin-top: 70px;
+        gap: 50px;
+}
+.course-comments{
+    background-color: #62D18D;
+    width: 227px;
+    height: 64px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.course-comments p{
+    text-align: center;
+    font-weight: 500;
+    color: #FBFBFB;
+}
