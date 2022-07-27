@@ -407,3 +407,68 @@ margin-top: 150px;
     font-weight: 500;
     color: #FBFBFB;
 }
+.Lumen-schedule-area{
+    box-shadow: 0px 2px 10px 0px #00000026;
+    width: 655px;
+    height: 203px;
+    border-radius: 12px;
+    margin-top: 36px;
+}
+.schedule-area-card{
+    margin-bottom: 29px;
+}
+.Card-item-schedule-area{
+    margin-top: 7px;
+}
+.Card-item-schedule-area h5{
+    font-weight: 600;
+}
+.icon-date-time-area{
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+
+.icon-date-time-area i{
+    font-size: 18px;
+    font-weight: 18px;
+    font-weight: 400;
+    margin-top: -7px;
+    padding-right: 20px;
+    font-weight: 00;
+    color: #505050;
+}
+.icon-date-time-area p{
+    margin-left: 27px;
+    margin-top: -11px;
+    margin-bottom: -7px;
+}
+.Card-area-space{
+    padding-left: 55px;
+    color: orange;
+}
+.Student-area-section-service{
+    display: flex;
+}
+.list-itam-card-area{
+    display: flex;
+    padding-left: 45px;
+    margin-top: 10px;
+}
+.class-time-level-area{
+    box-shadow: 0px 2px 10px 0px #00000026;
+    width: 453px;
+    height: 396px;
+    border-radius: 12px;
+    margin-left: 44px;
+    margin-top: 36px;
+}
+.list-itam-card-area h3{
+    width: 180px;
+    color: #242424;
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: 600;
+}
