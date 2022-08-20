@@ -22,6 +22,7 @@ body{
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
+    justify-content: end;
 
 }
 h1{
@@ -367,7 +368,6 @@ margin-top: 150px;
 .notify-button-lumen-lending-page i{
     width: 20px; 
     font-size: 30px;
-    
     color: orange;
     margin: auto;
 }
@@ -385,156 +385,106 @@ margin-top: 150px;
     font-weight: 600;
 }
 .course-detels-menu{
-        display: flex;
-        margin: 10px;
-        box-shadow: rgba(0, 0, 0, 0.1);
-        box-shadow: 0px 2px 10px 0px #0000001a;
-        width: 1140px;
-        height: 64px;
-        border-radius: 10px;
-        margin-top: 70px;
-        gap: 50px;
+    display: flex;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 10px 0px #0000001a;
+    border-radius: 10px;
+    margin-top: 70px;
+    gap: 50px;
 }
 .course-comments{
     background-color: #62D18D;
-    width: 227px;
-    height: 64px;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
+    padding-right: 60px;
 }
 .course-comments p{
+    padding-left: 50px;
     text-align: center;
     font-weight: 500;
     color: #FBFBFB;
 }
-.Lumen-schedule-area{
-    box-shadow: 0px 2px 10px 0px #00000026;
-    width: 655px;
-    height: 203px;
-    border-radius: 12px;
-    margin-top: 36px;
-}
-.schedule-area-card{
-    margin-bottom: 29px;
-}
-.Card-item-schedule-area{
-    margin-top: 7px;
-}
-.Card-item-schedule-area h5{
-    font-weight: 600;
-}
-.icon-date-time-area{
+.area-iteam{
     display: flex;
-    align-items: center;
-    margin-right: 80px;
-    margin-left: 55px;
-    margin-top: 30px;
+}
+.category-Service-area{
+    width: 60%;
 }
 
-.icon-date-time-area i{
+.class-schddule-area{
+    box-shadow: 0px 2px 10px 0px #0000001a;
+    padding: 16px 70px;
+    margin-top: 30px ;
+    border-radius: 12px;
+}
+.Bold-class-schedule h3{
+    color: orange;
+    font-weight: 600;
+}
+.Bold-class-schedule{
+    padding: 12px;
+}
+
+.date-time-icon-batch{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+.date-time-icon-batch i{
     font-size: 18px;
     font-weight: 18px;
     font-weight: 400;
     margin-top: -7px;
-    padding-right: 20px;
-    font-weight: 00;
-    color: #505050;
 }
-.icon-date-time-area p{
-    margin-left: 27px;
-    margin-top: -11px;
-    margin-bottom: -7px;
-}
-
-.paragraph-Area{
-    box-shadow:0px 2px 10px 0px #00000026;;
-    width: 655px;
-    height: 261px;
-    border-radius: 12px;
-    margin-top: 50px;
-}
-
-.area-for-paragraph p{
+.date-time-icon-batch h5{
     font-size: 20px;
-    font-weight: 400;
-    padding: 0 48px;
-    margin-top: -14px;
-    color: #505050;
-}
-
-.area-for-overview h4{
-    padding: 28px;
-    font-weight: 600;
-    font-size: 24px;
-    color: #FD9E47;
-}
-
-.Course-list-card-area{
-    box-shadow: 0px 2px 10px 0px #00000026;;
-    margin-top: 36px;
-    border-radius: 12px;
-    width: 655px;
-    height: 531px;
-}
-
-.List-Design-Area ul{
-    list-style: none;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 2;
-    margin-top: 55px;
-}
-.List-Design-Area li{
-    font-weight: 500;
-    color: #505050;
-    padding-left: 20px;
-}
-
-.Course-List-Area h4{
-    padding-left: 33px;
-    padding-top: 35px;
-    color: #FD9E47;
-    font-size: 24px;
+    padding-left: 10px;
+    padding-top: 0px;
     font-weight: 600;
 }
+.our-service-area{
+    width: 60%;
+}
+.overviwe-section{
+    box-shadow: 0px 2px 10px 0px #0000001a;
+    padding: 12px 12px;
+    border-radius: 12px;
+    margin-top: 40px;
+}
 
-
-
-.Card-area-space{
-    padding-left: 55px;
+.Header-Area-iteam h3{
     color: orange;
-}
-.Student-area-section-service{
-    display: flex;
-}
-.list-itam-card-area{
-    display: flex;
-    padding-left: 45px;
-    margin-top: 10px;
-    border-bottom: 1px solid #D3D3D3;
-   
-}
-.Child-story{
-    border-bottom: none;
-
-}
-.class-time-level-area{
-    box-shadow: 0px 2px 10px 0px #00000026;
-    width: 453px;
-    height: 396px;
-    border-radius: 12px;
-    margin-left: 44px;
-    margin-top: 36px;
-    padding: 0 30px;
-}
-
-.list-itam-card-area h3{
-    width: 180px;
-    color: #242424;
-    font-size: 24px;
-    margin-top: 20px;
     font-weight: 600;
-    margin-left: -35px;
+    padding-left: 46px;
+    padding: 16px 34px;
 }
-
-
+.paraprape-iteam{
+    padding: 0 49px
+}
+.our-coutse-module-area{
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);;
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.hadding-course-type h3{
+    padding: 25px 45px;
+    color: orange;
+    font-weight: 600;
+}
+.course-list-introduction{
+    margin-top: 1px;
+}
+.course-list-introduction {
+    padding: 1px;
+}
+.course-list-introduction ul li{
+    padding: 8px 28px;
+    list-style-type: none;
+    font-weight: 5w00;
+    font-weight: 500;
+    color: #505050;
+    font-size: 20px;
+}
